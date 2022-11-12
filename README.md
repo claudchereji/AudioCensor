@@ -1,4 +1,4 @@
-# AudioCensor
+# AudioCensor 🎵#️⃣
 Censor portions of audio using ffmpeg
 
 > 💡 This script is the  baseline for what will eventually become a tool for censoring out curse words in audio or video files. 
