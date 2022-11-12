@@ -2,6 +2,8 @@
 Censor portions of audio using ffmpeg
 
 > 💡 This script is the  baseline for what will eventually become a tool for censoring out curse words in audio or video files. 
+
+
 > ffmpeg -i jbp.m4a -i Censoredbeep.m4a -filter_complex "[0]adelay=0001|0001[s0];[1]adelay=2000|2000[s1];[2]adelay=10000|10000[s2];[3]adelay=14250|14250[s3]; [s1][s2][s3][s4]amix=4" -preset ultrafast output.mp3
 
 ## Use cases
