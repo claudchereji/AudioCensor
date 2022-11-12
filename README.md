@@ -36,5 +36,5 @@ Censor portions of audio using ffmpeg
 
 3. Custom censored sound effects
 
-##Colaborations
+## Colaborations
 PLEASE HELP!! I'm a script kiddie and I'm just cobbling together random code I find on the internet and it's all CLI based. I want to streamline this and make it into either a webapp or something that can be launched on any PC with a simple pip install or GIT Clone. Any help is appreciated!
