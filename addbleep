@@ -1,0 +1,12 @@
+#test code for the script that will add the beep to a specific time in an audio file.
+#currentlly uses ffmpeg and specifies a time in milliseconds. 
+
+ffmpeg -i jbp.m4a -i Censoredbeep.m4a -filter_complex "[0]adelay=0001|0001[s0];[1]adelay=2000|2000[s1];[2]adelay=10000|10000[s2];[3]adelay=14250|14250[s3]; [s1][s2][s3][s4]amix=4" -preset ultrafast output.mp3
+
+#Input audio file name should be replaced with the file name of your choosing along with the file extension.
+#the ouput file extension can be any file extension that you prefer (as long as ffmpeg supports it).
+
+#the code below takes the initial file that you want to cecnsor and mutes the section of audio that you want to overlay the  bleep sound effect, then merges the bleep effect with the file that has the specified sections muted. 
+
+
+ffmpeg -i jbp.m4a -af "volume=enable='between(t,2,3.8)':volume=0" jbpmuted.mp3 && ffmpeg -i jbpmuted.mp3 -i Censoredbeep.m4a -filter_complex "[0]adelay=0001|0001[s0];[1]adelay=2000|2000[s1]; [s0][s1]amix=2" -preset ultrafast -async 1 output.mp3
