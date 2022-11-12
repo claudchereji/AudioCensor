@@ -1,7 +1,7 @@
 # AudioCensor
 Censor portions of audio using ffmpeg
 
-> :lightbulb This script is the  baseline for what will eventually become a tool for censoring out curse words in audio or video files. 
+> 💡 This script is the  baseline for what will eventually become a tool for censoring out curse words in audio or video files. 
 
 ## Use cases
 - The first use case I imagined was a tool that would automatically ingest an mp3 file from a podcast feed and perform all actions in the script to transcribe the audio, parse out all curse words, replace audio where curse words are present with a bleep.mp3 sound effect, and spit out the new mp3 with the title "censored_INPUT.mp3. The audio could then be reuploaded by the Podcaster to have as a non-explicit version of any episode. This could be useful for a podcast like Joe Rogan when he has an educator on the show but swear words are peppered througout as sentence enhancers but could benefit someone in a younger audience that wouldn't necessarily appreciate listening to swearing. 
