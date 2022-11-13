@@ -45,4 +45,8 @@ ffmpeg -i jbp.m4a -i Censoredbeep.m4a -filter_complex "[0]adelay=0001|0001[s0];[
 3. Custom censored sound effects
 
 ## Colaborations
+> I could use some help setting a custom Jekyll theme cause I'm all thumbs with implementing that on the static site
+🤷🏻‍♂️ :thumbsup:
+
+
 PLEASE HELP!! I'm a script kiddie and I'm just cobbling together random code I find on the internet and it's all CLI based. I want to streamline this and make it into either a webapp or something that can be launched on any PC with a simple pip install or GIT Clone. Any help is appreciated!
