@@ -12,6 +12,9 @@ ffmpeg -i jbp.m4a -i Censoredbeep.m4a -filter_complex "[0]adelay=0001|0001[s0];[
 - The first use case I imagined was a tool that would automatically ingest an mp3 file from a podcast feed and perform all actions in the script to transcribe the audio, parse out all curse words, replace audio where curse words are present with a bleep.mp3 sound effect, and spit out the new mp3 with the title "censored_INPUT.mp3. The audio could then be reuploaded by the Podcaster to have as a non-explicit version of any episode. This could be useful for a podcast like Joe Rogan when he has an educator on the show but swear words are peppered througout as sentence enhancers but could benefit someone in a younger audience that wouldn't necessarily appreciate listening to swearing. 
 - Another use case would be a teacher that wants to show an educational video that may have a swear word somewhere in an important portion of said video and the audience would again be in a younger, school environment.
 
+# Go to the link below to see an example of the code in action
+[Example Code README.md](https://claudchereji.github.io/AudioCensor/exampleCode/)
+
 ## Steps to build
 -Build dictionary with list of all English swear words 
 
