@@ -1,3 +1,4 @@
+:arrow_backward: [Go Back](https://claudchereji.github.io/AudioCensor/)
 # What is this?
 This folder contains an .srt file of a podcast episode of mine that I downloaded and transcribed using WhisperAI. I then used the cmd+f function to find a cussword in the audio file.
 there are two cusswords but i focused on the first one since ffmpegs' amix function has certain limitations when attempting to run two audio filters that require muting. Put simply, amix will normalize the audio of all the audio files used in a given command instead of muting the predefined sections of audio. Given that fact, I decided to creat an MVP and simply perform the desired functions on one of the occurances of said cuss words.
