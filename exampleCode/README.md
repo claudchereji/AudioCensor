@@ -19,6 +19,9 @@ that got muted
 The first cussword is at the 25m42s mark.
 
 # How did you convert the time into something that ffmpeg understands?
+currently I dont have a script that converts a time code in to milliseconds or pure seconds which is needed for both scripts used so I simply searched for a conversion tool and input the time of the cussword, then fine tuned it for the millisecond count as seen in the example script.
  
+# Link to the example audio files used
+[Google Drive folder hosting the audio files used](https://drive.google.com/drive/folders/1-U6zpwC5wMe5pv5auYOdXE0e4rcWDeEg?usp=share_link)
 
  
